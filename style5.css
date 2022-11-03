@@ -1,0 +1,65 @@
+.HOME5 {
+	width: 650px;
+	height: 400px;
+	background-color: lightgray;
+	border: 2px solid black;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: 1s;
+}
+
+
+img {
+	width: 270px;
+	height: 370px;
+	padding: 10px;
+}
+
+.HOME5:hover {
+	transform: scale(1.3);
+	box-shadow: 0px 0px 5px 1px gray;
+	transition: 1s;
+}
+
+.nama5a {
+	position: absolute;
+	bottom: 0px;
+	right: 333px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME5:hover .nama5a {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}
+
+.nama5b {
+	position: absolute;
+	bottom: 0px;
+	right: 43px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME5:hover .nama5b {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}

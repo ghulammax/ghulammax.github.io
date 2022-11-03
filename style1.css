@@ -1,0 +1,46 @@
+.HOME1 {
+	width: 330px;
+	height: 400px;
+	background-color: lightgray;
+	border: 2px solid black;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: 1s;
+}
+
+
+img {
+	width: 270px;
+	height: 370px;
+	padding: 10px;
+	transition: 1s;
+}
+
+.HOME1:hover {
+	transform: scale(1.3);
+	box-shadow: 0px 0px 5px 1px gray;
+	transition: 1s;
+}
+
+.nama1 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME1:hover .nama1 {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}

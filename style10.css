@@ -1,0 +1,85 @@
+.HOME10 {
+	width: 900px;
+	height: 400px;
+	background-color: lightgray;
+	border: 2px solid black;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: 1s;
+}
+
+
+img {
+	width: 270px;
+	height: 370px;
+	padding: 10px;
+}
+
+.HOME10:hover {
+	transform: scale(1.3);
+	box-shadow: 0px 0px 5px 1px gray;
+	transition: 1s;
+}
+
+.nama10a {
+	position: absolute;
+	bottom: 0px;
+	right: 603px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME10:hover .nama10a {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}
+
+.nama10b {
+	position: absolute;
+	bottom: 0px;
+	right: 313px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME10:hover .nama10b {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}
+
+.nama10c {
+	position: absolute;
+	bottom: 0px;
+	right: 23px;
+	margin: 2px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: sans-serif;
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.HOME10:hover .nama10c {
+	visibility: visible;
+	transition: all 1s;
+	opacity: 0.9;
+}
